@@ -1,11 +1,6 @@
-import image1 from "../assets/about-1.jpg";
-import image2 from "../assets/about-2.jpg";
-import image3 from "../assets/about-3.jpg";
-import image4 from "../assets/about-4.jpg";
-
 export default function About() {
     return (
-        <section id="about" className="py-24">
+        <section id="about">
             <div className="container">
                 <div className="grid items-start md:grid-cols-2">
                     {/* Left side */}
@@ -28,38 +23,9 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-                <div className="mt-20 grid gap-5 md:grid-cols-[1fr_1.5fr_1fr]">
-                    <div className="overflow-hidden">
-                        <img
-                            src={image1}
-                            alt="Mobile application project"
-                            className="h-full w-full object-cover"
-                        />
-                    </div>
-                    <div className="overflow-hidden">
-                        <img
-                            src={image2}
-                            alt="Software development workspace"
-                            className="h-full w-full object-cover"
-                        />
-                    </div>
-                    <div className="grid gap-5 md:min-h-0 md:grid-rows-2">
-                        <div className="overflow-hidden">
-                            <img
-                                src={image3}
-                                alt="Development desk setup"
-                                className="h-full w-full object-cover"
-                            />
-                        </div>
-                        <div className="overflow-hidden">
-                            <img
-                                src={image4}
-                                alt="Team collaboration"
-                                className="h-full w-full object-cover"
-                            />
-                        </div>
-                    </div>
 
+                <div className="">
+            
                 </div>
             </div>
         </section>
